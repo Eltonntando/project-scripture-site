@@ -1,0 +1,72 @@
+p {color: purple; font-size: 24;}
+h1{
+	font-family: Impact;
+}
+p {
+	font-family:  Helvetica;
+}
+p { 
+	font-family: "Courier New" , Courier, monospace;
+ }
+ p {
+ 	font-size: 48;
+ 	font-weight: bold;
+ 	font-style: italic;
+ 	text-decoration: underline;
+ }
+ p {
+  
+ 	font: small-caps bold 24px Courier;
+}
+h1 {
+  font: italic 28pt Impact, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+p {
+  font: bold 16pt Consolas, "Courier New", Courier, monospace;
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.yellow{
+  background-color: yellow;
+}
+.container{
+  width: 200px;
+  border: 5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+}
+
+.red{
+  background-color: red;
+}
+
+.black{
+  background-color: black;
+}
